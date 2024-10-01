@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    
+}
+.header{
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+    color: white;  
+}
+.content{
+    display: flex;
+    gap:20px;
+}
+.main-article{
+    text-align: left;
+    background-color: green;
+    padding: 20px;
+    width: 61%;
+}
+.sidebar{
+    background-color: yellow;
+    flex-grow: 1;
+    width: 30%;
+    padding: 20px;
+}
+.articles{
+    display: flex;
+    gap: 20px;    
+}
+.article-1 , .article-2 , .article-3{
+    text-align: center;
+    background-color: aquamarine;
+   flex-grow: 1;
+    padding: 20px;
+
+}
